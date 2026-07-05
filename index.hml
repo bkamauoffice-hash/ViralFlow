@@ -1,10 +1,159 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ViralFlow</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViralFlow</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Welcome to ViralFlow</h1>
-  <p>Your short video app is under construction.</p>
+
+<header class="top-bar">
+    <h2>ViralFlow</h2>
+
+    <div class="top-icons">
+        <button>🔍</button>
+        <button>📷</button>
+    </div>
+</header>
+
+<main class="feed">
+
+<section class="video-card">
+
+<video
+class="video"
+muted
+loop
+autoplay
+playsinline>
+
+<source src="videos/video1.mp4" type="video/mp4">
+
+</video>
+
+<div class="video-info">
+
+<h3>@viralflow</h3>
+
+<p>
+Welcome to ViralFlow 🚀
+</p>
+
+</div>
+
+<div class="video-actions">
+
+<button class="like-btn">
+❤️
+<span>125K</span>
+</button>
+
+<button>
+💬
+<span>8K</span>
+</button>
+
+<button>
+🔄
+<span>Share</span>
+</button>
+
+<button>
+⭐
+<span>Save</span>
+</button>
+
+</div>
+
+</section>
+
+<section class="video-card">
+
+<video
+class="video"
+muted
+loop
+autoplay
+playsinline>
+
+<source src="videos/video2.mp4" type="video/mp4">
+
+</video>
+
+<div class="video-info">
+
+<h3>@creator</h3>
+
+<p>
+This is the second sample video.
+</p>
+
+</div>
+
+<div class="video-actions">
+
+<button class="like-btn">
+❤️
+<span>96K</span>
+</button>
+
+<button>
+💬
+<span>4K</span>
+</button>
+
+<button>
+🔄
+<span>Share</span>
+</button>
+
+<button>
+⭐
+<span>Save</span>
+</button>
+
+</div>
+
+</section>
+
+</main>
+
+<nav class="bottom-nav">
+
+<button class="active">
+🏠
+<span>Home</span>
+</button>
+
+<button>
+👥
+<span>Friends</span>
+</button>
+
+<button class="upload">
+➕
+</button>
+
+<button>
+📩
+<span>Inbox</span>
+</button>
+
+<button>
+👤
+<span>Profile</span>
+</button>
+
+</nav>
+
+<script src="script.js"></script>
+
 </body>
 </html>
